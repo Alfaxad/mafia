@@ -28,8 +28,8 @@ ALLSTAR_CSV = ROOT / "multimodel_holy_grail_allstar_player_metrics.csv"
 REPORT_MD = ROOT / "multimodel_holy_grail_report.md"
 
 MODEL_LABELS = {
-    ("modal_transformers", "Alfaxad/mafia-gemma-4-12B-it"): "Mafia Gemma BF16",
-    ("modal_gguf", "Alfaxad/mafia-gemma-4-12B-it-gguf"): "Mafia Gemma GGUF Q8",
+    ("modal_transformers", "build-small-hackathon/mafia-gemma-4-12B-it"): "Mafia Gemma BF16",
+    ("modal_gguf", "build-small-hackathon/mafia-gemma-4-12B-it-gguf"): "Mafia Gemma GGUF Q8",
     ("openai", "gpt-5"): "GPT-5 medium",
     ("openai", "gpt-5-mini"): "GPT-5-mini",
     ("anthropic", "claude-opus-4-8"): "Claude Opus 4.8",

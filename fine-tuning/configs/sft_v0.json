@@ -1,10 +1,10 @@
 {
   "run_name": "mafia-gemma4-12b-sft-v0",
   "base_model_id": "unsloth/gemma-4-12b-it",
-  "hf_dataset_repo": "Alfaxad/mafia-dataset",
+  "hf_dataset_repo": "build-small-hackathon/mafia-dataset",
   "hf_dataset_file": "data/examples/training_examples.full.jsonl",
-  "target_model_repo": "Alfaxad/mafia-gemma-4-12B-it",
-  "target_gguf_repo": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+  "target_model_repo": "build-small-hackathon/mafia-gemma-4-12B-it",
+  "target_gguf_repo": "build-small-hackathon/mafia-gemma-4-12B-it-gguf",
   "seed": 3407,
   "max_seq_length": 4096,
   "target_train_rows": 60000,

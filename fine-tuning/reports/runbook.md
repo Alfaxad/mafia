@@ -27,6 +27,6 @@ can be layered on after the SFT checkpoint has passed held-out evaluation.
 - Modal smoke run reaches training, writes a checkpoint, and writes eval JSON.
 - W&B run exists for the smoke run and the full run.
 - Full run resumes from checkpoints if interrupted.
-- Merged private model repo exists: `Alfaxad/mafia-gemma-4-12B-it`.
-- Private GGUF repo exists: `Alfaxad/mafia-gemma-4-12B-it-gguf`.
+- Merged private model repo exists: `build-small-hackathon/mafia-gemma-4-12B-it`.
+- Private GGUF repo exists: `build-small-hackathon/mafia-gemma-4-12B-it-gguf`.
 - Evaluation reports compare base, LoRA/merged, and GGUF when available.

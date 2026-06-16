@@ -1,7 +1,7 @@
 # Mafia Gemma 4 12B Fine-Tuning
 
 This folder contains the reproducible Modal pipeline for fine-tuning
-`unsloth/gemma-4-12b-it` on `Alfaxad/mafia-dataset`.
+`unsloth/gemma-4-12b-it` on `build-small-hackathon/mafia-dataset`.
 
 The first implemented training pass is response-only SFT over the unified Mafia
 task schema:

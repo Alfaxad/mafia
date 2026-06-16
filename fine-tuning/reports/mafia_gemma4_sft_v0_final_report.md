@@ -18,8 +18,8 @@ and 1000 optimizer steps.
 
 ## Uploads
 
-- Merged private HF repo: `Alfaxad/mafia-gemma-4-12B-it`
-- GGUF private HF repo: `Alfaxad/mafia-gemma-4-12B-it-gguf`
+- Merged private HF repo: `build-small-hackathon/mafia-gemma-4-12B-it`
+- GGUF private HF repo: `build-small-hackathon/mafia-gemma-4-12B-it-gguf`
 - GGUF quantization: `Q8_0`
 - Merged repo verification: private, has `model.safetensors`, config, tokenizer, and chat template files
 - GGUF repo verification: private, has `gemma-4-12b-it.Q8_0.gguf` and `gemma-4-12b-it.BF16-mmproj.gguf`

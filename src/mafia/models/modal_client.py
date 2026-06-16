@@ -17,7 +17,7 @@ class ModalModelClient:
 
     @classmethod
     def mafia_bf16(cls) -> "ModalModelClient":
-        return cls("MergedBF16Model", "Alfaxad/mafia-gemma-4-12B-it")
+        return cls("MergedBF16Model", "build-small-hackathon/mafia-gemma-4-12B-it")
 
     @classmethod
     def base_moderator_bf16(cls) -> "ModalModelClient":
@@ -25,7 +25,7 @@ class ModalModelClient:
 
     @classmethod
     def gguf_q8(cls) -> "ModalModelClient":
-        return cls("GGUFQ8Model", "Alfaxad/mafia-gemma-4-12B-it-gguf")
+        return cls("GGUFQ8Model", "build-small-hackathon/mafia-gemma-4-12B-it-gguf")
 
     def generate(
         self,

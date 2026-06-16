@@ -19,12 +19,12 @@ MODERATOR_BASE = {
 MODELS = {
     "mafia_gemma_bf16": {
         "provider": "modal_transformers",
-        "model": "Alfaxad/mafia-gemma-4-12B-it",
+        "model": "build-small-hackathon/mafia-gemma-4-12B-it",
         **GEMMA_SAMPLER,
     },
     "mafia_gemma_gguf_q8": {
         "provider": "modal_gguf",
-        "model": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+        "model": "build-small-hackathon/mafia-gemma-4-12B-it-gguf",
         **GEMMA_SAMPLER,
     },
     "gpt5_medium": {

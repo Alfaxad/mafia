@@ -10,7 +10,7 @@ from urllib.parse import urlparse
 import requests
 
 
-REPO = "Alfaxad/mafia-gemma-4-12B-it-gguf"
+REPO = "build-small-hackathon/mafia-gemma-4-12B-it-gguf"
 FILENAME = "gemma-4-12b-it.Q8_0.gguf"
 EXPECTED_SIZE = 12_669_630_432
 URL = f"https://huggingface.co/{REPO}/resolve/main/{FILENAME}?download=true"

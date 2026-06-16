@@ -13,9 +13,9 @@ import modal
 APP_NAME = "mafia-gemma4-inference"
 SECRET_NAME = "mafia-finetune-secrets"
 
-HF_MODEL_REPO = "Alfaxad/mafia-gemma-4-12B-it"
+HF_MODEL_REPO = "build-small-hackathon/mafia-gemma-4-12B-it"
 BASE_MODEL_REPO = "google/gemma-4-12B-it"
-GGUF_MODEL_REPO = "Alfaxad/mafia-gemma-4-12B-it-gguf"
+GGUF_MODEL_REPO = "build-small-hackathon/mafia-gemma-4-12B-it-gguf"
 GGUF_FILENAME = "gemma-4-12b-it.Q8_0.gguf"
 LLAMA_CPP_COMMIT = "18ef86ecec723361362a332a79b4d913fd724d40"
 
@@ -95,7 +95,7 @@ def _json_text_only(text: str) -> str:
 
 @app.cls(
     image=hf_image,
-    gpu="A100-80GB",
+    gpu="A100-40GB",
     volumes={str(MODEL_CACHE): model_cache_volume},
     secrets=[modal.Secret.from_name(SECRET_NAME)],
     timeout=10 * 60,
@@ -174,13 +174,13 @@ class MergedBF16Model:
                 "top_k": generation_kwargs.get("top_k"),
             },
             "latency_seconds": round(time.perf_counter() - started, 4),
-            "gpu": "A100-80GB",
+            "gpu": "A100-40GB",
         }
 
 
 @app.cls(
     image=hf_image,
-    gpu="A100-80GB",
+    gpu="A100-40GB",
     volumes={str(MODEL_CACHE): model_cache_volume},
     secrets=[modal.Secret.from_name(SECRET_NAME)],
     timeout=10 * 60,
@@ -259,13 +259,13 @@ class BaseBF16Model:
                 "top_k": generation_kwargs.get("top_k"),
             },
             "latency_seconds": round(time.perf_counter() - started, 4),
-            "gpu": "A100-80GB",
+            "gpu": "A100-40GB",
         }
 
 
 @app.cls(
     image=gguf_image,
-    gpu=["L40S", "A100-40GB", "A100-80GB"],
+    gpu="A100-40GB",
     volumes={str(MODEL_CACHE): model_cache_volume, str(GGUF_CACHE): gguf_cache_volume},
     secrets=[modal.Secret.from_name(SECRET_NAME)],
     timeout=10 * 60,
@@ -376,7 +376,7 @@ class GGUFQ8Model:
                 "top_k": payload["top_k"],
             },
             "latency_seconds": round(time.perf_counter() - started, 4),
-            "gpu": "L40S/A100 fallback",
+            "gpu": "A100-40GB",
         }
 
     @modal.exit()

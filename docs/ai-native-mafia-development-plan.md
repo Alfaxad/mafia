@@ -558,7 +558,7 @@ Deliverables:
 - HF Space version of the Gradio app.
 - ZeroGPU experiment for model execution where viable.
 - Fallback route to Modal inference if ZeroGPU cold starts or queues damage UX.
-- Private model access configured for `Alfaxad/mafia-gemma-4-12B-it`.
+- Private model access configured for `build-small-hackathon/mafia-gemma-4-12B-it`.
 
 ZeroGPU constraints to respect:
 
