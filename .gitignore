@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+node_modules/
+frontend/node_modules/
+
+.env
+env.txt
+.DS_Store
+
+codex-session-trace/
+
+# Local agent-generation scaffolding; not needed for users of the repo.
+frontend/.qwen/
+frontend/*PROMPT.md
+frontend/run_opengame.sh

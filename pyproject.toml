@@ -1,0 +1,41 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ai-native-mafia"
+version = "0.1.0"
+description = "AI-native Mafia game with an authoritative engine and load-bearing AI agents."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = [
+  "gradio[mcp]>=6.18.0",
+  "fastapi>=0.115",
+  "pydantic>=2.8",
+  "modal>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "ruff>=0.8",
+]
+
+[project.scripts]
+mafia-app = "mafia.server.app:main"
+mafia-sim = "mafia.simulation:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mafia"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

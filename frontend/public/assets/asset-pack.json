@@ -1,0 +1,229 @@
+{
+  "backgrounds": {
+    "files": [
+      {
+        "type": "image",
+        "key": "role_reveal_bg",
+        "url": "assets/role_reveal_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "main_table_bg",
+        "url": "assets/main_table_bg.png"
+      },
+      {
+        "type": "image",
+        "key": "endgame_bg",
+        "url": "assets/endgame_bg.png"
+      }
+    ]
+  },
+  "images": {
+    "files": [
+      {
+        "type": "image",
+        "key": "table_panel",
+        "url": "assets/table_panel.png"
+      },
+      {
+        "type": "image",
+        "key": "role_card_mafia",
+        "url": "assets/role_card_mafia.png"
+      },
+      {
+        "type": "image",
+        "key": "role_card_back",
+        "url": "assets/role_card_back.png"
+      },
+      {
+        "type": "image",
+        "key": "role_card_detective",
+        "url": "assets/role_card_detective.png"
+      },
+      {
+        "type": "image",
+        "key": "role_card_doctor",
+        "url": "assets/role_card_doctor.png"
+      },
+      {
+        "type": "image",
+        "key": "role_card_villager",
+        "url": "assets/role_card_villager.png"
+      },
+      {
+        "type": "image",
+        "key": "vote_marker",
+        "url": "assets/vote_marker.png"
+      },
+      {
+        "type": "image",
+        "key": "claim_marker",
+        "url": "assets/claim_marker.png"
+      },
+      {
+        "type": "image",
+        "key": "speaker_ring",
+        "url": "assets/speaker_ring.png"
+      },
+      {
+        "type": "image",
+        "key": "dead_overlay",
+        "url": "assets/dead_overlay.png"
+      },
+      {
+        "type": "image",
+        "key": "player_neutral",
+        "url": "assets/player_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "player_suspicious",
+        "url": "assets/player_suspicious.png"
+      },
+      {
+        "type": "image",
+        "key": "player_confident",
+        "url": "assets/player_confident.png"
+      },
+      {
+        "type": "image",
+        "key": "player_shocked",
+        "url": "assets/player_shocked.png"
+      },
+      {
+        "type": "image",
+        "key": "player_dead",
+        "url": "assets/player_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "player_female_generated_neutral",
+        "url": "assets/player_female_generated_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "player_female_generated_dead",
+        "url": "assets/player_female_generated_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "nora_neutral",
+        "url": "assets/nora_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "nora_dead",
+        "url": "assets/nora_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "kai_neutral",
+        "url": "assets/kai_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "kai_dead",
+        "url": "assets/kai_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "mira_neutral",
+        "url": "assets/mira_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "mira_dead",
+        "url": "assets/mira_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "jules_neutral",
+        "url": "assets/jules_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "jules_dead",
+        "url": "assets/jules_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "lena_neutral",
+        "url": "assets/lena_neutral.png"
+      },
+      {
+        "type": "image",
+        "key": "lena_dead",
+        "url": "assets/lena_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "owen_dead",
+        "url": "assets/owen_dead.png"
+      },
+      {
+        "type": "image",
+        "key": "owen_neutral",
+        "url": "assets/owen_neutral.png"
+      }
+    ]
+  },
+  "audio": {
+    "files": [
+      {
+        "type": "audio",
+        "key": "role_reveal_bgm",
+        "url": "assets/role_reveal_bgm.wav"
+      },
+      {
+        "type": "audio",
+        "key": "main_table_bgm",
+        "url": "assets/main_table_bgm.wav"
+      },
+      {
+        "type": "audio",
+        "key": "endgame_bgm",
+        "url": "assets/endgame_bgm.wav"
+      },
+      {
+        "type": "audio",
+        "key": "click_sfx",
+        "url": "assets/click_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "correct_sfx",
+        "url": "assets/correct_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "wrong_sfx",
+        "url": "assets/wrong_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "damage_sfx",
+        "url": "assets/damage_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "vote_sfx",
+        "url": "assets/vote_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "night_sfx",
+        "url": "assets/night_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "dawn_sfx",
+        "url": "assets/dawn_sfx.wav"
+      },
+      {
+        "type": "audio",
+        "key": "victory_sfx",
+        "url": "assets/victory_sfx.wav"
+      }
+    ]
+  }
+}
