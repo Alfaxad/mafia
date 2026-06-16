@@ -1,0 +1,8 @@
+model,action_group,calls,avg_latency_sec,max_latency_sec,avg_output_chars,failed_calls
+Mafia Gemma 4 12B,player,104,5.926154,103.935,218.201923,0
+Claude Opus 4.8,player,27,3.227667,6.578,249.740741,0
+Claude Sonnet 4.6,player,23,2.835261,3.746,240.608696,0
+GPT-5 medium,player,21,31.483762,102.33,229.809524,0
+GPT-5-mini,player,26,5.887731,20.425,225.307692,0
+Gemini 2.5 Pro OSV,player,27,19.448778,138.644,143.740741,0
+Moderator Gemma 4 12B BF16,moderator,517,4.807191,88.503,99.50677,0

@@ -1,0 +1,13 @@
+model,faction,votes,vote_accuracy
+Mafia Gemma 4 12B,good,106,0.660377
+Mafia Gemma 4 12B,mafia,45,1
+Claude Opus 4.8,good,26,0.653846
+Claude Opus 4.8,mafia,13,1
+Claude Sonnet 4.6,good,18,0.333333
+Claude Sonnet 4.6,mafia,12,1
+GPT-5 medium,good,25,0.6
+GPT-5 medium,mafia,7,1
+GPT-5-mini,good,25,0.6
+GPT-5-mini,mafia,10,1
+Gemini 2.5 Pro OSV,good,27,0.740741
+Gemini 2.5 Pro OSV,mafia,13,1

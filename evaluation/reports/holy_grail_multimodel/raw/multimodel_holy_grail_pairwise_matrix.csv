@@ -1,0 +1,6 @@
+opponent,mafia_gemma_bf16_mafia,mafia_gemma_bf16_good,mafia_gemma_gguf_q8_mafia,mafia_gemma_gguf_q8_good
+GPT-5 medium,loss,loss,win,loss
+GPT-5-mini,loss,win,win,win
+Claude Opus 4.8,loss,win,loss,win
+Claude Sonnet 4.6,win,win,win,win
+Gemini 2.5 Pro OSV,loss,win,loss,loss

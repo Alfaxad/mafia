@@ -1,0 +1,28 @@
+model,architecture,scenario,seed,winner,days,good_vote_accuracy,mafia_vote_accuracy,detective_hit_rate,doctor_saves,doctor_protected_detective,mafia_alive_final,role_claims,false_role_claims,holy_grail_target_overrides,holy_grail_message_overrides,llm_calls,revac_review_calls,api_errors,parse_failures,invalid_actions,source_file
+Mafia Gemma BF16,Holy Grail,mafia_gemma_bf16_holy_grail,9900,good,2,0.8,1.0,0.5,2,1,0,2,1,20,0,32,0,0,0,0,gate_mafia_gemma_iter4_holy_grail_only/seven_player_mafia_20260613_155502.jsonl
+Mafia Gemma BF16,Holy Grail,mafia_gemma_bf16_holy_grail,9901,good,4,0.5333333333333333,1.0,0.0,4,1,0,4,0,35,2,49,0,0,0,0,gate_mafia_gemma_iter4_holy_grail_only/seven_player_mafia_20260613_155502.jsonl
+Mafia Gemma BF16,Holy Grail,mafia_gemma_bf16_holy_grail,9902,good,3,0.7,1.0,0.6666666666666666,1,0,0,2,0,24,3,33,0,0,0,0,gate_mafia_gemma_iter4_holy_grail_only/seven_player_mafia_20260613_155502.jsonl
+Mafia Gemma BF16,ReVAC,mafia_gemma_bf16_revac,9900,mafia,2,0.125,1.0,0.5,1,0,2,0,0,0,0,70,27,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+Mafia Gemma BF16,ReVAC,mafia_gemma_bf16_revac,9901,mafia,3,0.1111111111111111,1.0,0.0,2,1,2,2,0,0,0,78,30,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+Mafia Gemma BF16,ReVAC,mafia_gemma_bf16_revac,9902,mafia,2,0.0,1.0,0.0,0,0,2,0,0,0,0,43,17,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+Mafia Gemma BF16,GRAIL,mafia_gemma_bf16_grail,9900,mafia,3,0.2222222222222222,1.0,0.3333333333333333,2,0,2,0,0,0,0,51,0,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+Mafia Gemma BF16,GRAIL,mafia_gemma_bf16_grail,9901,mafia,2,0.125,1.0,0.5,1,1,2,2,0,0,0,42,0,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+Mafia Gemma BF16,GRAIL,mafia_gemma_bf16_grail,9902,mafia,2,0.0,1.0,0.0,0,0,2,1,1,0,0,26,0,0,0,0,gate_mafia_gemma_iter4_comparators/seven_player_mafia_20260613_160649.jsonl
+GPT-5-mini,Holy Grail,gpt5mini_holy_grail,9900,mafia,3,0.4444444444444444,1.0,0.3333333333333333,2,1,2,3,0,24,5,29,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,Holy Grail,gpt5mini_holy_grail,9901,good,3,0.7272727272727273,1.0,0.6666666666666666,2,1,0,4,0,27,5,42,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,Holy Grail,gpt5mini_holy_grail,9902,good,3,0.5,1.0,0.6666666666666666,1,0,0,3,1,24,3,36,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,ReVAC,gpt5mini_revac,9900,mafia,2,0.0,1.0,1.0,1,0,2,0,0,0,0,66,25,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,ReVAC,gpt5mini_revac,9901,mafia,2,0.25,1.0,1.0,0,0,2,0,0,0,0,43,17,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,ReVAC,gpt5mini_revac,9902,good,3,0.6,1.0,0.0,2,0,0,0,0,0,0,107,38,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,GRAIL,gpt5mini_grail,9900,mafia,4,0.45454545454545453,1.0,0.5,2,0,1,0,0,0,0,64,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,GRAIL,gpt5mini_grail,9901,mafia,3,0.5,1.0,0.0,1,0,1,0,0,0,0,53,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+GPT-5-mini,GRAIL,gpt5mini_grail,9902,mafia,2,0.5,1.0,0.5,0,0,2,0,0,0,0,26,0,0,0,0,batch_gpt5mini_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,Holy Grail,claude_opus_4_8_holy_grail,9900,good,2,0.8,1.0,0.5,2,1,0,2,0,20,3,26,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,Holy Grail,claude_opus_4_8_holy_grail,9901,good,3,0.7,1.0,0.0,1,0,0,3,2,24,1,36,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,Holy Grail,claude_opus_4_8_holy_grail,9902,mafia,3,0.3333333333333333,1.0,0.3333333333333333,2,0,2,2,0,24,2,26,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,ReVAC,claude_opus_4_8_revac,9900,good,2,0.8888888888888888,1.0,1.0,1,0,0,0,0,0,0,68,26,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,ReVAC,claude_opus_4_8_revac,9901,mafia,2,0.5,1.0,1.0,0,0,2,0,0,0,0,43,17,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,ReVAC,claude_opus_4_8_revac,9902,good,3,0.6,1.0,0.0,2,0,0,0,0,0,0,103,37,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,GRAIL,claude_opus_4_8_grail,9900,good,3,0.6153846153846154,0.75,0.6666666666666666,2,1,0,4,1,0,0,65,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,GRAIL,claude_opus_4_8_grail,9901,mafia,2,0.75,1.0,0.0,0,1,2,0,0,0,0,27,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl
+Claude Opus 4.8,GRAIL,claude_opus_4_8_grail,9902,mafia,2,0.0,1.0,0.5,0,0,2,0,0,0,0,33,0,0,0,0,batch_claude_opus_final/seven_player_mafia_20260613_163539.jsonl

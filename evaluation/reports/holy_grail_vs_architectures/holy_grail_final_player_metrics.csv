@@ -1,0 +1,190 @@
+scenario,model,architecture,player_model,player_architecture,seed,winner,player,role,faction,provider,alive_final,eliminated_day,killed_night,messages_spoken,votes_cast,votes_received,role_claims,false_role_claims
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Ariel,Mafia,mafia,modal_transformers,False,1,,1,1,5,1,1
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Blake,Villager,good,modal_transformers,True,,,2,2,0,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Casey,Doctor,good,modal_transformers,True,,,2,2,0,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Devon,Detective,good,modal_transformers,True,,,1,2,3,1,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Emery,Villager,good,modal_transformers,True,,,2,2,1,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Finley,Mafia,mafia,modal_transformers,False,2,,2,2,3,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9900,good,Gray,Villager,good,modal_transformers,True,,,0,2,1,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Ariel,Doctor,good,modal_transformers,True,,,4,4,3,2,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Blake,Detective,good,modal_transformers,False,2,,2,2,4,2,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Casey,Mafia,mafia,modal_transformers,False,3,,1,3,4,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Devon,Villager,good,modal_transformers,True,,,3,4,2,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Emery,Villager,good,modal_transformers,True,,,3,4,2,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Finley,Mafia,mafia,modal_transformers,False,4,,2,4,4,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9901,good,Gray,Villager,good,modal_transformers,False,1,,0,1,3,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Ariel,Villager,good,modal_transformers,True,,,3,3,0,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Blake,Doctor,good,modal_transformers,False,1,,1,1,2,1,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Casey,Mafia,mafia,modal_transformers,False,3,,2,3,3,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Devon,Villager,good,modal_transformers,True,,,2,3,2,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Emery,Mafia,mafia,modal_transformers,False,2,,1,2,4,0,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Finley,Detective,good,modal_transformers,False,,3,1,2,3,1,0
+mafia_gemma_bf16_holy_grail,Mafia Gemma BF16,Holy Grail,Alfaxad/mafia-gemma-4-12B-it,holy_grail,9902,good,Gray,Villager,good,modal_transformers,False,,2,0,1,1,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Ariel,Mafia,mafia,modal_transformers,True,,,1,2,1,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Blake,Villager,good,modal_transformers,False,2,,2,2,5,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Casey,Doctor,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Devon,Detective,good,modal_transformers,False,,2,1,1,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Emery,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Finley,Mafia,mafia,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9900,mafia,Gray,Villager,good,modal_transformers,False,1,,0,1,6,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Ariel,Doctor,good,modal_transformers,False,2,,2,2,6,1,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Blake,Detective,good,modal_transformers,False,1,,1,1,6,1,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Casey,Mafia,mafia,modal_transformers,True,,,2,2,1,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Devon,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Emery,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Finley,Mafia,mafia,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9901,mafia,Gray,Villager,good,modal_transformers,False,,3,0,2,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Ariel,Villager,good,modal_transformers,False,,2,1,1,1,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Blake,Doctor,good,modal_transformers,False,,1,0,0,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Casey,Mafia,mafia,modal_transformers,True,,,1,1,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Devon,Villager,good,modal_transformers,True,,,1,1,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Emery,Mafia,mafia,modal_transformers,True,,,1,1,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Finley,Detective,good,modal_transformers,True,,,0,1,0,0,0
+mafia_gemma_bf16_revac,Mafia Gemma BF16,ReVAC,Alfaxad/mafia-gemma-4-12B-it,revac,9902,mafia,Gray,Villager,good,modal_transformers,False,1,,0,1,5,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Ariel,Mafia,mafia,modal_transformers,True,,,2,2,1,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Blake,Villager,good,modal_transformers,False,2,,2,2,6,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Casey,Doctor,good,modal_transformers,False,,3,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Devon,Detective,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Emery,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Finley,Mafia,mafia,modal_transformers,True,,,1,2,1,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9900,mafia,Gray,Villager,good,modal_transformers,False,1,,0,1,5,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Ariel,Doctor,good,modal_transformers,False,1,,1,1,6,2,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Blake,Detective,good,modal_transformers,False,,2,1,1,1,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Casey,Mafia,mafia,modal_transformers,True,,,2,2,1,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Devon,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Emery,Villager,good,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Finley,Mafia,mafia,modal_transformers,True,,,1,2,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9901,mafia,Gray,Villager,good,modal_transformers,False,2,,0,2,4,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Ariel,Villager,good,modal_transformers,False,,2,1,1,1,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Blake,Doctor,good,modal_transformers,False,,1,0,0,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Casey,Mafia,mafia,modal_transformers,True,,,1,1,0,1,1
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Devon,Villager,good,modal_transformers,True,,,1,1,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Emery,Mafia,mafia,modal_transformers,True,,,1,1,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Finley,Detective,good,modal_transformers,True,,,0,1,0,0,0
+mafia_gemma_bf16_grail,Mafia Gemma BF16,GRAIL,Alfaxad/mafia-gemma-4-12B-it,grail,9902,mafia,Gray,Villager,good,modal_transformers,False,1,,0,1,5,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Ariel,Mafia,mafia,openai,True,,,2,2,2,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Blake,Villager,good,openai,True,,,2,2,1,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Casey,Doctor,good,openai,False,2,,2,2,2,2,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Devon,Detective,good,openai,False,,3,1,2,2,1,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Emery,Villager,good,openai,True,,,1,2,1,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Finley,Mafia,mafia,openai,True,,,1,2,2,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9900,mafia,Gray,Villager,good,openai,False,1,,0,1,3,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Ariel,Doctor,good,openai,True,,,3,3,1,2,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Blake,Detective,good,openai,True,,,3,3,3,2,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Casey,Mafia,mafia,openai,False,3,,2,3,4,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Devon,Villager,good,openai,False,1,,1,1,2,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Emery,Villager,good,openai,True,,,2,3,1,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Finley,Mafia,mafia,openai,False,2,,2,2,4,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9901,good,Gray,Villager,good,openai,False,,2,0,1,1,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Ariel,Villager,good,openai,True,,,3,3,0,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Blake,Doctor,good,openai,False,1,,1,1,6,1,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Casey,Mafia,mafia,openai,False,3,,3,3,2,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Devon,Villager,good,openai,True,,,2,3,2,1,1
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Emery,Mafia,mafia,openai,False,2,,1,2,3,0,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Finley,Detective,good,openai,False,,3,1,2,2,1,0
+gpt5mini_holy_grail,GPT-5-mini,Holy Grail,gpt-5-mini,holy_grail,9902,good,Gray,Villager,good,openai,False,,2,0,1,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Ariel,Mafia,mafia,openai,True,,,2,2,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Blake,Villager,good,openai,False,1,,1,1,5,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Casey,Doctor,good,openai,True,,,1,2,1,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Devon,Detective,good,openai,False,,1,0,0,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Emery,Villager,good,openai,False,2,,1,2,5,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Finley,Mafia,mafia,openai,True,,,1,2,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9900,mafia,Gray,Villager,good,openai,True,,,1,2,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Ariel,Doctor,good,openai,False,,2,1,1,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Blake,Detective,good,openai,False,1,,1,1,5,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Casey,Mafia,mafia,openai,True,,,1,1,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Devon,Villager,good,openai,False,,1,0,0,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Emery,Villager,good,openai,True,,,0,1,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Finley,Mafia,mafia,openai,True,,,1,1,1,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9901,mafia,Gray,Villager,good,openai,True,,,0,1,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Ariel,Villager,good,openai,True,,,4,3,4,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Blake,Doctor,good,openai,True,,,3,3,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Casey,Mafia,mafia,openai,False,3,,3,3,3,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Devon,Villager,good,openai,True,,,3,3,0,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Emery,Mafia,mafia,openai,False,2,,1,2,3,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Finley,Detective,good,openai,False,1,,0,1,5,0,0
+gpt5mini_revac,GPT-5-mini,ReVAC,gpt-5-mini,revac,9902,good,Gray,Villager,good,openai,False,,1,0,0,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Ariel,Mafia,mafia,openai,False,2,,2,2,5,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Blake,Villager,good,openai,False,3,,3,3,4,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Casey,Doctor,good,openai,False,,4,2,3,2,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Devon,Detective,good,openai,False,,2,1,1,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Emery,Villager,good,openai,True,,,1,3,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Finley,Mafia,mafia,openai,True,,,2,3,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9900,mafia,Gray,Villager,good,openai,False,1,,0,1,5,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Ariel,Doctor,good,openai,False,,2,1,1,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Blake,Detective,good,openai,False,1,,1,1,6,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Casey,Mafia,mafia,openai,False,2,,1,2,4,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Devon,Villager,good,openai,False,3,,2,3,4,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Emery,Villager,good,openai,False,,3,1,2,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Finley,Mafia,mafia,openai,True,,,2,3,1,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9901,mafia,Gray,Villager,good,openai,True,,,1,3,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Ariel,Villager,good,openai,False,,2,1,1,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Blake,Doctor,good,openai,False,1,,1,1,4,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Casey,Mafia,mafia,openai,True,,,1,1,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Devon,Villager,good,openai,False,,1,0,0,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Emery,Mafia,mafia,openai,True,,,1,1,2,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Finley,Detective,good,openai,True,,,0,1,0,0,0
+gpt5mini_grail,GPT-5-mini,GRAIL,gpt-5-mini,grail,9902,mafia,Gray,Villager,good,openai,True,,,0,1,0,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Ariel,Mafia,mafia,anthropic,False,1,,1,1,5,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Blake,Villager,good,anthropic,True,,,2,2,1,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Casey,Doctor,good,anthropic,True,,,1,2,0,1,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Devon,Detective,good,anthropic,True,,,1,2,3,1,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Emery,Villager,good,anthropic,True,,,1,2,1,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Finley,Mafia,mafia,anthropic,False,2,,1,2,3,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9900,good,Gray,Villager,good,anthropic,True,,,1,2,0,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Ariel,Doctor,good,anthropic,True,,,3,3,1,1,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Blake,Detective,good,anthropic,False,1,,1,1,2,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Casey,Mafia,mafia,anthropic,False,3,,2,3,3,2,2
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Devon,Villager,good,anthropic,False,,3,2,2,3,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Emery,Villager,good,anthropic,True,,,2,3,1,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Finley,Mafia,mafia,anthropic,False,2,,1,2,4,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9901,good,Gray,Villager,good,anthropic,False,,2,0,1,1,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Ariel,Villager,good,anthropic,False,1,,1,1,4,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Blake,Doctor,good,anthropic,False,2,,1,2,4,1,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Casey,Mafia,mafia,anthropic,True,,,2,2,3,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Devon,Villager,good,anthropic,True,,,1,2,2,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Emery,Mafia,mafia,anthropic,True,,,1,2,0,0,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Finley,Detective,good,anthropic,False,,3,1,2,0,1,0
+claude_opus_4_8_holy_grail,Claude Opus 4.8,Holy Grail,claude-opus-4-8,holy_grail,9902,mafia,Gray,Villager,good,anthropic,True,,,1,2,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Ariel,Mafia,mafia,anthropic,False,1,,1,1,5,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Blake,Villager,good,anthropic,True,,,1,2,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Casey,Doctor,good,anthropic,False,,2,1,1,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Devon,Detective,good,anthropic,True,,,1,2,2,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Emery,Villager,good,anthropic,True,,,1,2,2,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Finley,Mafia,mafia,anthropic,False,2,,1,2,3,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9900,good,Gray,Villager,good,anthropic,True,,,1,2,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Ariel,Doctor,good,anthropic,False,1,,1,1,4,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Blake,Detective,good,anthropic,True,,,1,1,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Casey,Mafia,mafia,anthropic,True,,,1,1,1,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Devon,Villager,good,anthropic,False,,1,0,0,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Emery,Villager,good,anthropic,False,,2,1,1,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Finley,Mafia,mafia,anthropic,True,,,0,1,1,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9901,mafia,Gray,Villager,good,anthropic,True,,,0,1,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Ariel,Villager,good,anthropic,False,1,,1,1,5,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Blake,Doctor,good,anthropic,True,,,3,3,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Casey,Mafia,mafia,anthropic,False,2,,2,2,3,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Devon,Villager,good,anthropic,True,,,3,3,2,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Emery,Mafia,mafia,anthropic,False,3,,2,3,3,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Finley,Detective,good,anthropic,False,,1,0,0,0,0,0
+claude_opus_4_8_revac,Claude Opus 4.8,ReVAC,claude-opus-4-8,revac,9902,good,Gray,Villager,good,anthropic,True,,,2,3,2,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Ariel,Mafia,mafia,anthropic,False,1,,1,1,6,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Blake,Villager,good,anthropic,True,,,2,3,3,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Casey,Doctor,good,anthropic,False,2,,2,2,3,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Devon,Detective,good,anthropic,True,,,2,3,2,2,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Emery,Villager,good,anthropic,False,,3,1,2,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Finley,Mafia,mafia,anthropic,False,3,,3,3,3,1,1
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9900,good,Gray,Villager,good,anthropic,True,,,1,3,0,1,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Ariel,Doctor,good,anthropic,False,,2,1,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Blake,Detective,good,anthropic,True,,,1,1,1,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Casey,Mafia,mafia,anthropic,True,,,1,1,1,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Devon,Villager,good,anthropic,False,,1,0,0,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Emery,Villager,good,anthropic,False,1,,1,1,2,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Finley,Mafia,mafia,anthropic,True,,,0,1,2,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9901,mafia,Gray,Villager,good,anthropic,True,,,0,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Ariel,Villager,good,anthropic,True,,,1,1,1,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Blake,Doctor,good,anthropic,True,,,1,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Casey,Mafia,mafia,anthropic,True,,,1,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Devon,Villager,good,anthropic,False,,1,0,0,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Emery,Mafia,mafia,anthropic,True,,,1,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Finley,Detective,good,anthropic,False,,2,1,1,0,0,0
+claude_opus_4_8_grail,Claude Opus 4.8,GRAIL,claude-opus-4-8,grail,9902,mafia,Gray,Villager,good,anthropic,False,1,,1,1,5,0,0

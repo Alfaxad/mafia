@@ -1,0 +1,22 @@
+model,action,count,success_rate
+Mafia Gemma BF16,detective_check,9,0.4444444444444444
+Mafia Gemma BF16,doctor_save,17,0.6470588235294118
+Mafia Gemma BF16,mafia_kill_vote,26,0.6153846153846154
+Mafia Gemma GGUF Q8,detective_check,11,0.5454545454545454
+Mafia Gemma GGUF Q8,doctor_save,13,0.7692307692307693
+Mafia Gemma GGUF Q8,mafia_kill_vote,23,0.6521739130434783
+GPT-5 medium,detective_check,4,0.25
+GPT-5 medium,doctor_save,3,1.0
+GPT-5 medium,mafia_kill_vote,11,0.36363636363636365
+GPT-5-mini,detective_check,5,0.6
+GPT-5-mini,doctor_save,5,0.8
+GPT-5-mini,mafia_kill_vote,10,0.4
+Claude Opus 4.8,detective_check,6,0.3333333333333333
+Claude Opus 4.8,doctor_save,6,0.8333333333333334
+Claude Opus 4.8,mafia_kill_vote,13,0.38461538461538464
+Claude Sonnet 4.6,detective_check,6,0.5
+Claude Sonnet 4.6,doctor_save,4,0.75
+Claude Sonnet 4.6,mafia_kill_vote,12,0.6666666666666666
+Gemini 2.5 Pro OSV,detective_check,8,0.75
+Gemini 2.5 Pro OSV,doctor_save,2,1.0
+Gemini 2.5 Pro OSV,mafia_kill_vote,13,0.5384615384615384

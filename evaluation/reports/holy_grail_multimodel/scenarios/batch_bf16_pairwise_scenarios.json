@@ -1,0 +1,402 @@
+{
+  "scenarios": [
+    {
+      "name": "mafia_gemma_bf16_mafia_holy_grail_vs_gpt5_medium_good_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls both Mafia and gpt5_medium controls all good roles. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10100,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_good_holy_grail_vs_gpt5_medium_mafia_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls all good roles and gpt5_medium controls both Mafia. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10101,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_mafia_holy_grail_vs_gpt5mini_good_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls both Mafia and gpt5mini controls all good roles. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10102,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_good_holy_grail_vs_gpt5mini_mafia_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls all good roles and gpt5mini controls both Mafia. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10103,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_mafia_holy_grail_vs_claude_opus_4_8_good_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls both Mafia and claude_opus_4_8 controls all good roles. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10104,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_good_holy_grail_vs_claude_opus_4_8_mafia_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls all good roles and claude_opus_4_8 controls both Mafia. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10105,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_mafia_holy_grail_vs_claude_sonnet_4_6_good_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls both Mafia and claude_sonnet_4_6 controls all good roles. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10106,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_good_holy_grail_vs_claude_sonnet_4_6_mafia_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls all good roles and claude_sonnet_4_6 controls both Mafia. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10107,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_mafia_holy_grail_vs_gemini_2_5_pro_osv_good_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls both Mafia and gemini_2_5_pro_osv controls all good roles. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10108,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_good_holy_grail_vs_gemini_2_5_pro_osv_mafia_holy_grail_moderated_quality_ttt",
+      "description": "mafia_gemma_bf16 controls all good roles and gemini_2_5_pro_osv controls both Mafia. All player agents use Holy Grail under the base Gemma BF16 TTT moderator.",
+      "seed": 10109,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "good": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "mafia": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    }
+  ]
+}

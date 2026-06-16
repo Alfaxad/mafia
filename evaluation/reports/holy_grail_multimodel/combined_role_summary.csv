@@ -1,0 +1,25 @@
+model,role,player_slots,team_win_rate,alive_final_rate,vote_accuracy,votes,avg_messages_spoken,avg_votes_received,avg_role_claims,avg_false_role_claims
+Mafia Gemma 4 12B,Mafia,21,0.380952,0.380952,1,45,1.47619,2.761905,0.047619,0.047619
+Mafia Gemma 4 12B,Detective,10,0.7,0.5,0.588235,17,1.1,1.9,0.9,0
+Mafia Gemma 4 12B,Doctor,14,0.714286,0.642857,0.7,30,1.357143,2,0.857143,0
+Mafia Gemma 4 12B,Villager,33,0.69697,0.606061,0.661017,59,1.30303,0.969697,0,0
+Claude Opus 4.8,Mafia,6,0,0,1,13,1.5,4.166667,0,0
+Claude Opus 4.8,Detective,3,0.666667,0.333333,0.6,5,1,2,1,0
+Claude Opus 4.8,Doctor,2,1,1,0.5,6,2,3.5,2,0
+Claude Opus 4.8,Villager,7,1,0.714286,0.733333,15,1.571429,1.142857,0,0
+Claude Sonnet 4.6,Mafia,7,0.142857,0.142857,1,12,1.285714,3.857143,0,0
+Claude Sonnet 4.6,Detective,3,0.333333,0.333333,0.5,4,0.666667,1,0.666667,0
+Claude Sonnet 4.6,Doctor,2,0,0.5,0.25,4,1.5,1.5,1,0
+Claude Sonnet 4.6,Villager,6,0,0.5,0.3,10,1.5,2.5,0,0
+GPT-5 medium,Mafia,5,0.8,0.8,1,7,1,1.2,0.2,0.2
+GPT-5 medium,Detective,2,0.5,0.5,1,3,1,1,1,0
+GPT-5 medium,Doctor,2,0.5,0.5,0.666667,3,0.5,3,0.5,0
+GPT-5 medium,Villager,9,0.555556,0.777778,0.526316,19,1.444444,0.888889,0,0
+GPT-5-mini,Mafia,4,0,0,1,10,2,3.5,0,0
+GPT-5-mini,Detective,3,0.666667,0.333333,0.75,4,1,1.666667,1,0
+GPT-5-mini,Doctor,2,0.5,0.5,0.6,5,2,3.5,1.5,0
+GPT-5-mini,Villager,9,0.555556,0.555556,0.5625,16,1.222222,1.555556,0,0
+Gemini 2.5 Pro OSV,Mafia,5,0.6,0.6,1,13,2.2,2.6,0,0
+Gemini 2.5 Pro OSV,Detective,3,1,0.333333,0.833333,6,1.333333,2.333333,0.666667,0
+Gemini 2.5 Pro OSV,Doctor,2,1,0,0,2,0.5,2.5,0.5,0
+Gemini 2.5 Pro OSV,Villager,8,1,0.75,0.789474,19,1.375,1.125,0,0

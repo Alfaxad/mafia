@@ -1,0 +1,300 @@
+{
+  "scenarios": [
+    {
+      "name": "allstar_holy_grail_rotation_0",
+      "description": "Mixed-model table with Mafia Gemma BF16, Mafia Gemma GGUF Q8, GPT-5 medium, GPT-5-mini, Claude Opus 4.8, Claude Sonnet 4.6, and Gemini 2.5 Pro OSV. Every player uses Holy Grail; seats rotate across rows.",
+      "seed": 10200,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "ariel": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "blake": {
+          "provider": "modal_gguf",
+          "model": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "casey": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "devon": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "emery": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "finley": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "gray": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        }
+      }
+    },
+    {
+      "name": "allstar_holy_grail_rotation_1",
+      "description": "Mixed-model table with Mafia Gemma BF16, Mafia Gemma GGUF Q8, GPT-5 medium, GPT-5-mini, Claude Opus 4.8, Claude Sonnet 4.6, and Gemini 2.5 Pro OSV. Every player uses Holy Grail; seats rotate across rows.",
+      "seed": 10201,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "ariel": {
+          "provider": "modal_gguf",
+          "model": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "blake": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "casey": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "devon": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "emery": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "finley": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "gray": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        }
+      }
+    },
+    {
+      "name": "allstar_holy_grail_rotation_2",
+      "description": "Mixed-model table with Mafia Gemma BF16, Mafia Gemma GGUF Q8, GPT-5 medium, GPT-5-mini, Claude Opus 4.8, Claude Sonnet 4.6, and Gemini 2.5 Pro OSV. Every player uses Holy Grail; seats rotate across rows.",
+      "seed": 10202,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "ariel": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "blake": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "casey": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "devon": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "emery": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "finley": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "gray": {
+          "provider": "modal_gguf",
+          "model": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        }
+      }
+    },
+    {
+      "name": "allstar_holy_grail_rotation_3",
+      "description": "Mixed-model table with Mafia Gemma BF16, Mafia Gemma GGUF Q8, GPT-5 medium, GPT-5-mini, Claude Opus 4.8, Claude Sonnet 4.6, and Gemini 2.5 Pro OSV. Every player uses Holy Grail; seats rotate across rows.",
+      "seed": 10203,
+      "games": 1,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "ariel": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "reasoning_effort": "low",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "blake": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "casey": {
+          "provider": "anthropic",
+          "model": "claude-sonnet-4-6",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "devon": {
+          "provider": "osv_gateway",
+          "model": "vertex_ai/gemini-2.5-pro",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        },
+        "emery": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "finley": {
+          "provider": "modal_gguf",
+          "model": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64,
+          "architecture": "holy_grail"
+        },
+        "gray": {
+          "provider": "openai",
+          "model": "gpt-5",
+          "reasoning_effort": "medium",
+          "temperature": 0,
+          "architecture": "holy_grail"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+model,scope,player_slots,team_win_rate,alive_final_rate,avg_messages_spoken,avg_votes_cast,avg_votes_received,avg_role_claims,avg_false_role_claims
+Mafia Gemma 4 12B,all_games,78,0.615385,0.538462,1.333333,1.935897,1.75641,0.282051,0.012821
+Claude Opus 4.8,all_games,18,0.611111,0.444444,1.5,2.166667,2.555556,0.388889,0
+Claude Sonnet 4.6,all_games,18,0.111111,0.333333,1.277778,1.666667,2.666667,0.222222,0
+GPT-5 medium,all_games,18,0.611111,0.722222,1.166667,1.777778,1.222222,0.222222,0.055556
+GPT-5-mini,all_games,18,0.444444,0.388889,1.444444,1.944444,2.222222,0.333333,0
+Gemini 2.5 Pro OSV,all_games,18,0.888889,0.555556,1.5,2.222222,1.888889,0.166667,0
+Mafia Gemma 4 12B,allstar_only,8,0.625,0.625,1.375,1.75,1.375,0.375,0
+Claude Opus 4.8,allstar_only,4,0.25,0.25,1.75,2,2.75,0.25,0
+Claude Sonnet 4.6,allstar_only,4,0.5,0.5,1.5,2,2.75,0.25,0
+GPT-5 medium,allstar_only,4,0.5,0.5,1.75,2,1.5,0.25,0.25
+GPT-5-mini,allstar_only,4,0.75,0.5,1.25,1.5,2.25,0.5,0
+Gemini 2.5 Pro OSV,allstar_only,4,1,1,1.5,2.25,1.25,0.25,0

@@ -1,0 +1,15 @@
+model,faction,votes,vote_accuracy
+Mafia Gemma BF16,good,55,0.6909090909090909
+Mafia Gemma BF16,mafia,26,1.0
+Mafia Gemma GGUF Q8,good,51,0.6274509803921569
+Mafia Gemma GGUF Q8,mafia,19,1.0
+GPT-5 medium,good,25,0.6
+GPT-5 medium,mafia,7,1.0
+GPT-5-mini,good,25,0.6
+GPT-5-mini,mafia,10,1.0
+Claude Opus 4.8,good,26,0.6538461538461539
+Claude Opus 4.8,mafia,13,1.0
+Claude Sonnet 4.6,good,18,0.3333333333333333
+Claude Sonnet 4.6,mafia,12,1.0
+Gemini 2.5 Pro OSV,good,27,0.7407407407407407
+Gemini 2.5 Pro OSV,mafia,13,1.0

@@ -1,0 +1,238 @@
+{
+  "scenarios": [
+    {
+      "name": "mafia_gemma_bf16_holy_grail",
+      "description": "Mafia Gemma BF16 homogeneous Holy Grail architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "architecture": "holy_grail",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_revac",
+      "description": "Mafia Gemma BF16 homogeneous ReVAC architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "architecture": "revac",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "mafia_gemma_bf16_grail",
+      "description": "Mafia Gemma BF16 homogeneous GRAIL architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "modal_transformers",
+          "model": "Alfaxad/mafia-gemma-4-12B-it",
+          "architecture": "grail",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "claude_opus_4_8_holy_grail",
+      "description": "Claude Opus 4.8 homogeneous Holy Grail architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "architecture": "holy_grail",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "claude_opus_4_8_revac",
+      "description": "Claude Opus 4.8 homogeneous ReVAC architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "architecture": "revac",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "claude_opus_4_8_grail",
+      "description": "Claude Opus 4.8 homogeneous GRAIL architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "anthropic",
+          "model": "claude-opus-4-8",
+          "architecture": "grail",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "gpt5mini_holy_grail",
+      "description": "GPT-5-mini homogeneous Holy Grail architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "architecture": "holy_grail",
+          "reasoning_effort": "low",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "gpt5mini_revac",
+      "description": "GPT-5-mini homogeneous ReVAC architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "architecture": "revac",
+          "reasoning_effort": "low",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    },
+    {
+      "name": "gpt5mini_grail",
+      "description": "GPT-5-mini homogeneous GRAIL architecture under base Gemma BF16 moderator.",
+      "seed": 9900,
+      "games": 3,
+      "max_days": 6,
+      "tie_policy": "random",
+      "protocol": "moderated_quality_time_to_talk",
+      "assignments": {
+        "default": {
+          "provider": "openai",
+          "model": "gpt-5-mini",
+          "architecture": "grail",
+          "reasoning_effort": "low",
+          "temperature": 0
+        },
+        "moderator": {
+          "provider": "modal_base_bf16",
+          "model": "google/gemma-4-12B-it",
+          "architecture": "baseline",
+          "temperature": 1.0,
+          "top_p": 0.95,
+          "top_k": 64
+        }
+      }
+    }
+  ]
+}
