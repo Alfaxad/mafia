@@ -1,0 +1,6 @@
+{
+  "gguf_quantization": "Q8_0",
+  "gguf_repo": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+  "merged_path": "/checkpoints/experiments/mafia-gemma4-12b-sft-v0/merged_16bit",
+  "merged_repo": "Alfaxad/mafia-gemma-4-12B-it"
+}

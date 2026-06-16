@@ -1,0 +1,6 @@
+{
+  "deployed_app": "mafia-gemma4-finetune",
+  "function": "train_sft",
+  "function_call": "fc-01KTW4Y6HM6D2RFFWCJEZS7WJ8",
+  "max_steps": 1000
+}

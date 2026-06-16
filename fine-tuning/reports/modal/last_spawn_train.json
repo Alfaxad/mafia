@@ -1,0 +1,6 @@
+{
+  "function_call": "fc-01KTW4WCJMJ723X9PB076XC819",
+  "max_steps": 1000,
+  "note": "Training was submitted with train_sft.spawn; use modal app list/logs to monitor the ephemeral app.",
+  "run_name": "mafia-gemma4-12b-sft-v0"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "deployed_app": "mafia-gemma4-finetune",
+    "function": "evaluate_model",
+    "function_call": "fc-01KTWT1H5D7XJ1YKR6H204ETEG",
+    "run_name": "mafia-gemma4-12b-sft-v0",
+    "stage": "evaluate_model",
+    "variant": "adapter"
+  },
+  {
+    "deployed_app": "mafia-gemma4-finetune",
+    "function": "evaluate_model",
+    "function_call": "fc-01KTWT1HEZ3DHNCTM08NAN7Q16",
+    "run_name": "mafia-gemma4-12b-sft-v0",
+    "stage": "evaluate_model",
+    "variant": "merged"
+  },
+  {
+    "deployed_app": "mafia-gemma4-finetune",
+    "function": "evaluate_model",
+    "function_call": "fc-01KTWT1HPNBBMWV9YNPA2YAPN1",
+    "run_name": "mafia-gemma4-12b-sft-v0",
+    "stage": "evaluate_model",
+    "variant": "base"
+  }
+]

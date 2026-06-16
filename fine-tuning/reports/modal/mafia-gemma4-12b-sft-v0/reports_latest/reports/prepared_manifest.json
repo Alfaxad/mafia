@@ -1,0 +1,150 @@
+{
+  "config": {
+    "always_include_train_sources": [
+      "bayesian_avalon_grail",
+      "llmafia",
+      "local_7p_harness"
+    ],
+    "base_model_id": "unsloth/gemma-4-12b-it",
+    "enable_wandb": true,
+    "eval_generation_limit": 240,
+    "eval_max_new_tokens": 384,
+    "eval_steps": 300,
+    "gguf_quantization": "Q8_0",
+    "gradient_accumulation_steps": 16,
+    "hf_dataset_file": "data/examples/training_examples.full.jsonl",
+    "hf_dataset_repo": "Alfaxad/mafia-dataset",
+    "learning_rate": 0.0001,
+    "logging_steps": 25,
+    "lora_alpha": 64,
+    "lora_dropout": 0.0,
+    "lora_r": 32,
+    "lr_scheduler_type": "cosine",
+    "max_json_chars": 5600,
+    "max_seq_length": 4096,
+    "max_steps": 2400,
+    "max_text_chars": 420,
+    "max_transcript_events": 5,
+    "min_message_quality": 1,
+    "min_quality_by_task": {
+      "ACTION_JSON": "bronze",
+      "BELIEF_UPDATE": "silver",
+      "CLAIM_CHECK": "silver",
+      "DECEPTION_LABEL": "gold",
+      "NIGHT_ACTION": "silver",
+      "PREFERENCE_PAIR": "gold",
+      "PRIVATE_REVIEW": "bronze",
+      "PUBLIC_MESSAGE": "silver",
+      "SCHEDULER": "silver",
+      "VOTE_DECISION": "silver"
+    },
+    "packing": true,
+    "per_device_train_batch_size": 1,
+    "preprocess_num_proc": 8,
+    "resume": true,
+    "role_weights": {
+      "Detective": 1.3,
+      "Doctor": 1.25,
+      "Mafia": 1.5,
+      "Mapped": 0.7,
+      "Unknown": 0.7,
+      "Villager": 1.1
+    },
+    "run_name": "mafia-gemma4-12b-sft-v0",
+    "save_steps": 300,
+    "seed": 3407,
+    "source_weights": {
+      "bayesian_avalon": 2.6,
+      "bayesian_avalon_grail": 3.5,
+      "bayesian_social_deduction": 2.6,
+      "llmafia": 3.0,
+      "local_7p_harness": 5.0,
+      "mini_mafia": 2.0,
+      "revac_mindgames": 1.8,
+      "time_to_talk_llmafia": 3.0,
+      "unknown": 0.5,
+      "werewolf_data": 1.0,
+      "wolf": 1.0,
+      "wolf_enhance": 1.0
+    },
+    "target_eval_rows": 2000,
+    "target_gguf_repo": "Alfaxad/mafia-gemma-4-12B-it-gguf",
+    "target_model_repo": "Alfaxad/mafia-gemma-4-12B-it",
+    "target_test_rows": 2000,
+    "target_train_rows": 60000,
+    "task_weights": {
+      "ACTION_JSON": 1.2,
+      "BELIEF_UPDATE": 2.2,
+      "CLAIM_CHECK": 1.8,
+      "DECEPTION_LABEL": 2.1,
+      "NIGHT_ACTION": 1.8,
+      "PREFERENCE_PAIR": 1.0,
+      "PRIVATE_REVIEW": 2.4,
+      "PUBLIC_MESSAGE": 2.0,
+      "SCHEDULER": 2.4,
+      "VOTE_DECISION": 1.9
+    },
+    "tier_weights": {
+      "bronze": 0.35,
+      "gold": 3.0,
+      "silver": 1.6
+    },
+    "upload_gguf": true,
+    "upload_merged": true,
+    "wandb_project": "mafia-gemma4-12b",
+    "warmup_ratio": 0.03,
+    "weight_decay": 0.001
+  },
+  "created_at": "2026-06-11T19:23:30Z",
+  "dpo_pairs": 0,
+  "eligible_source_counts": {
+    "bayesian_avalon_grail": 742,
+    "llmafia": 5782,
+    "local_7p_harness": 3913,
+    "mini_mafia": 171970,
+    "revac_mindgames": 13,
+    "werewolf_data": 358333
+  },
+  "eligible_split_counts": {
+    "eval_only": 13,
+    "test": 55626,
+    "train": 429905,
+    "validation": 55209
+  },
+  "paths": {
+    "dpo": "/dataset_cache/prepared/mafia-gemma4-12b-sft-v0/dpo_pairs.jsonl",
+    "sample": "/dataset_cache/prepared/mafia-gemma4-12b-sft-v0/samples.jsonl",
+    "test": "/dataset_cache/prepared/mafia-gemma4-12b-sft-v0/test.messages.jsonl",
+    "train": "/dataset_cache/prepared/mafia-gemma4-12b-sft-v0/train.messages.jsonl",
+    "validation": "/dataset_cache/prepared/mafia-gemma4-12b-sft-v0/eval.messages.jsonl"
+  },
+  "prepared_by_role": {
+    "Detective": 17314,
+    "Doctor": 443,
+    "Mafia": 26691,
+    "Villager": 20187
+  },
+  "prepared_by_source": {
+    "bayesian_avalon_grail": 635,
+    "llmafia": 3542,
+    "local_7p_harness": 3033,
+    "mini_mafia": 32279,
+    "werewolf_data": 25146
+  },
+  "prepared_by_task": {
+    "NIGHT_ACTION": 8603,
+    "PRIVATE_REVIEW": 635,
+    "PUBLIC_MESSAGE": 32159,
+    "SCHEDULER": 2568,
+    "VOTE_DECISION": 20670
+  },
+  "prepared_counts": {
+    "sample": 100,
+    "test": 2000,
+    "train": 60635,
+    "validation": 2000
+  },
+  "raw_path": "/dataset_cache/raw/Alfaxad__mafia-dataset/data__examples__training_examples.full.jsonl",
+  "train_group_count": 35,
+  "train_sample_scale": 0.0252387764290658
+}

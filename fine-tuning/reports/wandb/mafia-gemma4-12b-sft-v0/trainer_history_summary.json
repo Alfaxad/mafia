@@ -1,0 +1,41 @@
+{
+  "epoch": 0.2691382529563155,
+  "global_step": 1000,
+  "last_history_rows": [
+    {
+      "epoch": 0.2624097966324076,
+      "grad_norm": 0.06574764102697372,
+      "learning_rate": 1.7716843019867646e-07,
+      "loss": 0.035111229419708255,
+      "step": 975
+    },
+    {
+      "epoch": 0.2691382529563155,
+      "grad_norm": 0.051866061985492706,
+      "learning_rate": 2.622381702066523e-10,
+      "loss": 0.03354644775390625,
+      "step": 1000
+    },
+    {
+      "epoch": 0.2691382529563155,
+      "eval_loss": 0.5770275592803955,
+      "eval_runtime": 255.7719,
+      "eval_samples_per_second": 7.819,
+      "eval_steps_per_second": 1.955,
+      "step": 1000
+    },
+    {
+      "epoch": 0.2691382529563155,
+      "step": 1000,
+      "total_flos": 1.2063601600081428e+18,
+      "train_loss": 0.041440205514431,
+      "train_runtime": 20352.4056,
+      "train_samples_per_second": 0.786,
+      "train_steps_per_second": 0.049
+    }
+  ],
+  "log_history_rows": 45,
+  "run_name": "mafia-gemma4-12b-sft-v0",
+  "source": "trainer_state.json log_history; W&B API export unavailable because no WANDB_API_KEY/local login was configured",
+  "wandb_run_url": "https://wandb.ai/alfaxad/mafia-gemma4-12b/runs/7zhlpbt2"
+}

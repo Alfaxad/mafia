@@ -1,0 +1,7 @@
+{
+  "deployed_app": "mafia-gemma4-finetune",
+  "function": "merge_upload_export",
+  "function_call": "fc-01KTWRH31F1YZA6QMW6Y6DTFJH",
+  "run_name": "mafia-gemma4-12b-sft-v0",
+  "stage": "merge_upload_export"
+}

@@ -1,0 +1,7 @@
+<bos><|turn>user
+MAFIA_AGENT_TRAINING_TASK
+Output policy: return exactly one JSON object and no markdown.
+Training item:
+{"actor":{"alive":true,"id":"P2","role":"Mafia","team":"mafia"},"candidate_actions":[{"action_type":"kill","target_player":"P1"},{"action_type":"kill","target_player":"P4"}],"constraints":["Night phase: Mafia must choose exactly one living non-mafia target."],"game":{"day":1,"phase":"night","roles":["Mafia","Mafia","Detective","Doctor","Villager","Villager","Villager"]},"instruction":"You are a role-adaptive Mafia game agent. Return only valid JSON for the target task.","private_info":{"mafia_partners":["P3"]},"public_state":{"alive_players":["P1","P2","P3","P4","P5","P6","P7"]},"required_target_fields":["action_type","target_player"],"task":"NIGHT_ACTION"}
+<|endofturn>
+<|turn>model

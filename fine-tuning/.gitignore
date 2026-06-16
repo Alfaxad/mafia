@@ -1,0 +1,22 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Local model artifacts should stay in Modal/Hugging Face/model storage.
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.onnx
+adapter_model/
+checkpoint-*/
+checkpoints/
+model_cache/
+dataset_cache/
+/wandb/
+
+# Keep the committed checksum and prompt while ignoring local GGUF downloads.
+!gguf/*.sha256
+!gguf/smoke_prompt.txt

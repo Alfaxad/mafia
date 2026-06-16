@@ -1,0 +1,53 @@
+{
+  "action_type_ok": 1.0,
+  "by_task": {
+    "NIGHT_ACTION": {
+      "action_type_ok": 1.0,
+      "count": 45,
+      "exact_target_match": 0.35555555555555557,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    },
+    "PUBLIC_MESSAGE": {
+      "action_type_ok": 1.0,
+      "count": 140,
+      "exact_target_match": 0.0,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    },
+    "VOTE_DECISION": {
+      "action_type_ok": 1.0,
+      "count": 55,
+      "exact_target_match": 0.7818181818181819,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    }
+  },
+  "count": 240,
+  "exact_target_match": 0.24583333333333332,
+  "json_valid": 1.0,
+  "metadata": {
+    "completion_tokens_per_second_mean": 23.81161272695254,
+    "created_at": "2026-06-12T04:12:09Z",
+    "latency_seconds_mean": 2.480213449638298,
+    "latency_seconds_median": 2.4045508749841247,
+    "max_tokens": 384,
+    "model_path": "/Users/alfaxad/Desktop/AI/Games/fine-tuning/gguf/gemma-4-12b-it.Q8_0.gguf",
+    "model_size_bytes": 12669630432,
+    "prompt_tokens_per_second_mean": 233.21762296598217,
+    "request_timeout_seconds": 240,
+    "sample_limit": 240,
+    "sample_source": "/Users/alfaxad/Desktop/AI/Games/fine-tuning/reports/modal/mafia-gemma4-12b-sft-v0/reports_latest/reports/merged_generation_eval.jsonl",
+    "server_url": "http://127.0.0.1:8087",
+    "sha256": "e1c320c43638bb0fde6986f669eada9850ac89d02acf7ba627efb87ea69e0572"
+  },
+  "public_message_ok": 1.0,
+  "required_fields_ok": 1.0,
+  "role_action_ok": 1.0
+}

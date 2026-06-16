@@ -1,0 +1,38 @@
+{
+  "action_type_ok": 1.0,
+  "by_task": {
+    "NIGHT_ACTION": {
+      "action_type_ok": 1.0,
+      "count": 45,
+      "exact_target_match": 0.28888888888888886,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    },
+    "PUBLIC_MESSAGE": {
+      "action_type_ok": 1.0,
+      "count": 140,
+      "exact_target_match": 0.0,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    },
+    "VOTE_DECISION": {
+      "action_type_ok": 1.0,
+      "count": 55,
+      "exact_target_match": 0.7454545454545455,
+      "json_valid": 1.0,
+      "public_message_ok": 1.0,
+      "required_fields_ok": 1.0,
+      "role_action_ok": 1.0
+    }
+  },
+  "count": 240,
+  "exact_target_match": 0.225,
+  "json_valid": 1.0,
+  "public_message_ok": 1.0,
+  "required_fields_ok": 1.0,
+  "role_action_ok": 1.0
+}
