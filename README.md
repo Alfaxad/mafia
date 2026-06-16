@@ -323,7 +323,7 @@ If you cite this work, cite the blog post:
     title = {Mafia: On The Design of Social Deduction Reasoning Agents & AI-native games},
     year = {2026},
     howpublished = {\url{https://www.alfaxad.com/mafia}},
-    note = {Kaggle}
+    note = {Blogpost}
 }
 ```
 
