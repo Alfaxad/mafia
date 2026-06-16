@@ -10,6 +10,7 @@ This folder archives the OpenGame/OpenAgent generation inputs and output used to
   - `CONTINUE_IMPLEMENTATION_PROMPT.md`
   - `IMPLEMENT_NOW_PROMPT.md`
   - `.qwen/system.md`
+- `seven-player-mafia/OPENAGENT_IMPLEMENTATION_PLAN.md` extracts the implementation plan OpenGame/OpenAgent wrote before building the prototype.
 - `GAME_DESIGN.md`, source files, generated assets, build output, and OpenGame run reports are included.
 
 `node_modules/` is intentionally omitted. Recreate dependencies with:
