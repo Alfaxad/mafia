@@ -318,7 +318,7 @@ rather than just presenting the final app.
 If you cite this work, cite the blog post:
 
 ```bibtex
-@misc{sara-clinical-workflow-agent,
+@misc{Mafia-social-deduction-reasoning-agent,
     author = {Alfaxad Eyembe},
     title = {Mafia: On The Design of Social Deduction Reasoning Agents & AI-native games},
     year = {2026},
