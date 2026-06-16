@@ -10,7 +10,7 @@ frontend/node_modules/
 env.txt
 .DS_Store
 
-codex-session-trace/
+.private/
 
 # Local agent-generation scaffolding; not needed for users of the repo.
 frontend/.qwen/
