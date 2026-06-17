@@ -1,6 +1,4 @@
-# Mafia
-
-**Mafia: On the design of social deduction reasoning agents and AI-native games.**
+# **Mafia: On the design of social deduction agents and AI-native games.**
 
 [![Space](https://img.shields.io/badge/Hugging%20Face-Space-blue)](https://huggingface.co/spaces/build-small-hackathon/mafia)
 [![Model](https://img.shields.io/badge/Model-Mafia%20Gemma%204%2012B-yellow)](https://huggingface.co/build-small-hackathon/mafia-gemma-4-12B-it)
@@ -318,7 +316,7 @@ rather than just presenting the final app.
 If you cite this work, cite the blog post:
 
 ```bibtex
-@misc{Mafia-social-deduction-reasoning-agent,
+@misc{Mafia-social-deduction-agent,
     author = {Alfaxad Eyembe},
     title = {Mafia: On The Design of Social Deduction Reasoning Agents & AI-native games},
     year = {2026},
