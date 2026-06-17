@@ -318,7 +318,7 @@ If you cite this work, cite the blog post:
 ```bibtex
 @misc{Mafia-social-deduction-agent,
     author = {Alfaxad Eyembe},
-    title = {Mafia: On The Design of Social Deduction Reasoning Agents & AI-native games},
+    title = {Mafia: On The Design of Social Deduction Agents & AI-native games},
     year = {2026},
     howpublished = {\url{https://www.alfaxad.com/mafia}},
     note = {Blogpost}
